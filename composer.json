@@ -26,7 +26,7 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Gustavoviniciusdemorais\\GustavoPackageBuilder\\": "packages/gustavo-package-builder"
+            "Modules\\Builder\\": "modules/builder/src"
         }
     },
     "autoload-dev": {

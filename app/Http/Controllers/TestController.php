@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use GustavoPackageBuilder;
+use GustavoBuilder;
 
 class TestController extends Controller
 {
     
     public function index()
     {
-        return GustavoPackageBuilder::check();
+        return GustavoBuilder::check();
     }
 }
